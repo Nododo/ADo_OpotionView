@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F97E05D1BD75B780042AE27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97E05C1BD75B780042AE27 /* main.m */; };
+		1F97E0601BD75B780042AE27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97E05F1BD75B780042AE27 /* AppDelegate.m */; };
+		1F97E0631BD75B780042AE27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97E0621BD75B780042AE27 /* ViewController.m */; };
+		1F97E0661BD75B780042AE27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F97E0641BD75B780042AE27 /* Main.storyboard */; };
+		1F97E0681BD75B780042AE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F97E0671BD75B780042AE27 /* Assets.xcassets */; };
+		1F97E06B1BD75B780042AE27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F97E0691BD75B780042AE27 /* LaunchScreen.storyboard */; };
+		1F97E0761BD75B780042AE27 /* ADo_OpotionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97E0751BD75B780042AE27 /* ADo_OpotionViewTests.m */; };
+		1F97E0811BD75B780042AE27 /* ADo_OpotionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97E0801BD75B780042AE27 /* ADo_OpotionViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F97E0721BD75B780042AE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F97E0501BD75B780042AE27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F97E0571BD75B780042AE27;
+			remoteInfo = ADo_OpotionView;
+		};
+		1F97E07D1BD75B780042AE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F97E0501BD75B780042AE27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F97E0571BD75B780042AE27;
+			remoteInfo = ADo_OpotionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F97E0581BD75B780042AE27 /* ADo_OpotionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADo_OpotionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F97E05C1BD75B780042AE27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F97E05E1BD75B780042AE27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F97E05F1BD75B780042AE27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F97E0611BD75B780042AE27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F97E0621BD75B780042AE27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F97E0651BD75B780042AE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F97E0671BD75B780042AE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F97E06A1BD75B780042AE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F97E06C1BD75B780042AE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F97E0711BD75B780042AE27 /* ADo_OpotionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADo_OpotionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F97E0751BD75B780042AE27 /* ADo_OpotionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADo_OpotionViewTests.m; sourceTree = "<group>"; };
+		1F97E0771BD75B780042AE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F97E07C1BD75B780042AE27 /* ADo_OpotionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADo_OpotionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F97E0801BD75B780042AE27 /* ADo_OpotionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADo_OpotionViewUITests.m; sourceTree = "<group>"; };
+		1F97E0821BD75B780042AE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F97E0551BD75B780042AE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F97E06E1BD75B780042AE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F97E0791BD75B780042AE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F97E04F1BD75B780042AE27 = {
+			isa = PBXGroup;
+			children = (
+				1F97E05A1BD75B780042AE27 /* ADo_OpotionView */,
+				1F97E0741BD75B780042AE27 /* ADo_OpotionViewTests */,
+				1F97E07F1BD75B780042AE27 /* ADo_OpotionViewUITests */,
+				1F97E0591BD75B780042AE27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F97E0591BD75B780042AE27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F97E0581BD75B780042AE27 /* ADo_OpotionView.app */,
+				1F97E0711BD75B780042AE27 /* ADo_OpotionViewTests.xctest */,
+				1F97E07C1BD75B780042AE27 /* ADo_OpotionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F97E05A1BD75B780042AE27 /* ADo_OpotionView */ = {
+			isa = PBXGroup;
+			children = (
+				1F97E05E1BD75B780042AE27 /* AppDelegate.h */,
+				1F97E05F1BD75B780042AE27 /* AppDelegate.m */,
+				1F97E0611BD75B780042AE27 /* ViewController.h */,
+				1F97E0621BD75B780042AE27 /* ViewController.m */,
+				1F97E0641BD75B780042AE27 /* Main.storyboard */,
+				1F97E0671BD75B780042AE27 /* Assets.xcassets */,
+				1F97E0691BD75B780042AE27 /* LaunchScreen.storyboard */,
+				1F97E06C1BD75B780042AE27 /* Info.plist */,
+				1F97E05B1BD75B780042AE27 /* Supporting Files */,
+			);
+			path = ADo_OpotionView;
+			sourceTree = "<group>";
+		};
+		1F97E05B1BD75B780042AE27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F97E05C1BD75B780042AE27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F97E0741BD75B780042AE27 /* ADo_OpotionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F97E0751BD75B780042AE27 /* ADo_OpotionViewTests.m */,
+				1F97E0771BD75B780042AE27 /* Info.plist */,
+			);
+			path = ADo_OpotionViewTests;
+			sourceTree = "<group>";
+		};
+		1F97E07F1BD75B780042AE27 /* ADo_OpotionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F97E0801BD75B780042AE27 /* ADo_OpotionViewUITests.m */,
+				1F97E0821BD75B780042AE27 /* Info.plist */,
+			);
+			path = ADo_OpotionViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F97E0571BD75B780042AE27 /* ADo_OpotionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F97E0851BD75B780042AE27 /* Build configuration list for PBXNativeTarget "ADo_OpotionView" */;
+			buildPhases = (
+				1F97E0541BD75B780042AE27 /* Sources */,
+				1F97E0551BD75B780042AE27 /* Frameworks */,
+				1F97E0561BD75B780042AE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADo_OpotionView;
+			productName = ADo_OpotionView;
+			productReference = 1F97E0581BD75B780042AE27 /* ADo_OpotionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F97E0701BD75B780042AE27 /* ADo_OpotionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F97E0881BD75B780042AE27 /* Build configuration list for PBXNativeTarget "ADo_OpotionViewTests" */;
+			buildPhases = (
+				1F97E06D1BD75B780042AE27 /* Sources */,
+				1F97E06E1BD75B780042AE27 /* Frameworks */,
+				1F97E06F1BD75B780042AE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F97E0731BD75B780042AE27 /* PBXTargetDependency */,
+			);
+			name = ADo_OpotionViewTests;
+			productName = ADo_OpotionViewTests;
+			productReference = 1F97E0711BD75B780042AE27 /* ADo_OpotionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F97E07B1BD75B780042AE27 /* ADo_OpotionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F97E08B1BD75B780042AE27 /* Build configuration list for PBXNativeTarget "ADo_OpotionViewUITests" */;
+			buildPhases = (
+				1F97E0781BD75B780042AE27 /* Sources */,
+				1F97E0791BD75B780042AE27 /* Frameworks */,
+				1F97E07A1BD75B780042AE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F97E07E1BD75B780042AE27 /* PBXTargetDependency */,
+			);
+			name = ADo_OpotionViewUITests;
+			productName = ADo_OpotionViewUITests;
+			productReference = 1F97E07C1BD75B780042AE27 /* ADo_OpotionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F97E0501BD75B780042AE27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "杜维欣";
+				TargetAttributes = {
+					1F97E0571BD75B780042AE27 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					1F97E0701BD75B780042AE27 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 1F97E0571BD75B780042AE27;
+					};
+					1F97E07B1BD75B780042AE27 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 1F97E0571BD75B780042AE27;
+					};
+				};
+			};
+			buildConfigurationList = 1F97E0531BD75B780042AE27 /* Build configuration list for PBXProject "ADo_OpotionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F97E04F1BD75B780042AE27;
+			productRefGroup = 1F97E0591BD75B780042AE27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F97E0571BD75B780042AE27 /* ADo_OpotionView */,
+				1F97E0701BD75B780042AE27 /* ADo_OpotionViewTests */,
+				1F97E07B1BD75B780042AE27 /* ADo_OpotionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F97E0561BD75B780042AE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F97E06B1BD75B780042AE27 /* LaunchScreen.storyboard in Resources */,
+				1F97E0681BD75B780042AE27 /* Assets.xcassets in Resources */,
+				1F97E0661BD75B780042AE27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F97E06F1BD75B780042AE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F97E07A1BD75B780042AE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F97E0541BD75B780042AE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F97E0631BD75B780042AE27 /* ViewController.m in Sources */,
+				1F97E0601BD75B780042AE27 /* AppDelegate.m in Sources */,
+				1F97E05D1BD75B780042AE27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F97E06D1BD75B780042AE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F97E0761BD75B780042AE27 /* ADo_OpotionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F97E0781BD75B780042AE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F97E0811BD75B780042AE27 /* ADo_OpotionViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F97E0731BD75B780042AE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F97E0571BD75B780042AE27 /* ADo_OpotionView */;
+			targetProxy = 1F97E0721BD75B780042AE27 /* PBXContainerItemProxy */;
+		};
+		1F97E07E1BD75B780042AE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F97E0571BD75B780042AE27 /* ADo_OpotionView */;
+			targetProxy = 1F97E07D1BD75B780042AE27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F97E0641BD75B780042AE27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F97E0651BD75B780042AE27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F97E0691BD75B780042AE27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F97E06A1BD75B780042AE27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F97E0831BD75B780042AE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F97E0841BD75B780042AE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F97E0861BD75B780042AE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADo_OpotionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JZG.www.ADo-OpotionView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F97E0871BD75B780042AE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADo_OpotionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JZG.www.ADo-OpotionView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F97E0891BD75B780042AE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADo_OpotionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JZG.www.ADo-OpotionViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADo_OpotionView.app/ADo_OpotionView";
+			};
+			name = Debug;
+		};
+		1F97E08A1BD75B780042AE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADo_OpotionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JZG.www.ADo-OpotionViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADo_OpotionView.app/ADo_OpotionView";
+			};
+			name = Release;
+		};
+		1F97E08C1BD75B780042AE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADo_OpotionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JZG.www.ADo-OpotionViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADo_OpotionView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1F97E08D1BD75B780042AE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADo_OpotionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JZG.www.ADo-OpotionViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADo_OpotionView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F97E0531BD75B780042AE27 /* Build configuration list for PBXProject "ADo_OpotionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F97E0831BD75B780042AE27 /* Debug */,
+				1F97E0841BD75B780042AE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F97E0851BD75B780042AE27 /* Build configuration list for PBXNativeTarget "ADo_OpotionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F97E0861BD75B780042AE27 /* Debug */,
+				1F97E0871BD75B780042AE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F97E0881BD75B780042AE27 /* Build configuration list for PBXNativeTarget "ADo_OpotionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F97E0891BD75B780042AE27 /* Debug */,
+				1F97E08A1BD75B780042AE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F97E08B1BD75B780042AE27 /* Build configuration list for PBXNativeTarget "ADo_OpotionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F97E08C1BD75B780042AE27 /* Debug */,
+				1F97E08D1BD75B780042AE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F97E0501BD75B780042AE27 /* Project object */;
+}
